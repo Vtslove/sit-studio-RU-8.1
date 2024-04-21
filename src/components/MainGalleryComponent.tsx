@@ -35,9 +35,9 @@ const MainGalleryComponent: FunctionComponent<ComponentType> = ({
   }, [projectTitleHeight, imageIconFlex, imageIconMaxHeight]);
 
   return (
-    <div className="flex-1 flex flex-col items-start justify-start gap-[24px] min-w-[320px] max-w-full text-left text-xl text-white font-body-text">
+    <div className="flex-1 flex flex-col items-start justify-start gap-[24px] min-w-[320px] max-w-full text-left text-xl text-white ">
        <h1 className={styles.webDesignStudioContainer}>
-            <p className={styles.webDesignStudio}>WEB<br/>DESIGN<br/> STUDIO</p>
+            <p className={styles.webDesignStudio}>ВЕБ<br/>ДИЗАЙН<br/> СТУДИЯ</p>
           </h1>
       <img
         className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-contain cursor-pointer"
